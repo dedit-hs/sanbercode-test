@@ -11,6 +11,8 @@
 
 Membuat API sederhana dengan bahasa pemrograman python menggunakan Microframework FastAPI.
 
+ ![Design Database](tabungan.png)
+
 ## Installation
 
 - Jalankan docker-compose build:
