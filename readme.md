@@ -15,22 +15,26 @@ Membuat API sederhana dengan bahasa pemrograman python menggunakan Microframewor
 
 - Jalankan docker-compose build:
 
-  ```docker-compose build
+  ```sh
+  docker-compose build
   ```
 
 - Jalankan perintah docker-compose up:
 
-  ```docker-compose up
+  ```sh
+  docker-compose up
   ```
 
 - Lakukan migrasi database menggunakan alembic:
 
-  ```docker-compose run app alembic revision --autogenerate -m "pesan_revisi"
+  ```sh
+  docker-compose run app alembic revision --autogenerate -m "pesan_revisi"
   ```
 
 - Terakhir, Jalankan perintah :
 
-  ```docker-compose run app alembic upgrade head
+  ```sh
+  docker-compose run app alembic upgrade head
   ```
 
 - Buka `localhost:8000/docs` untuk melihat API Documentation.
